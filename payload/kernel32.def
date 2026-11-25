@@ -1,0 +1,17 @@
+LIBRARY kernel32.dll
+EXPORTS
+GetModuleHandleW
+GetCurrentProcess
+ReadProcessMemory
+OpenFileMappingW
+MapViewOfFile
+CreateThread
+Sleep
+CreateFileW
+WriteFile
+FreeLibraryAndExitThread
+DisableThreadLibraryCalls
+GetTempPathW
+VirtualProtect
+WriteProcessMemory
+GetTickCount64
